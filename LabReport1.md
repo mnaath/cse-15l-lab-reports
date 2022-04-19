@@ -69,3 +69,20 @@ Since inputing our password everytime we ssh can be annoying, we can use the ssh
 
 # Optimizing Remote Running
 
+We have already seen how ssh keys can help us login a lot faster, bypassing the typing needed to input our passwords.
+
+In order to truly optimise remote code, we can explore the use of some simple bash scripting. We can provide a name, such as cs15, which is aliased to our super long ssh cs1..... command. This replaces the entire command, allowing us shorten it and save some keystrokes.
+
+We first edit the .zshrc file, or .bashrc file, depending on which shell you are using, adding this line:
+
+![Screen Shot 2022-04-19 at 1 59 38 AM](https://user-images.githubusercontent.com/65497162/163968883-2279243e-f847-4d9b-b8d5-30482590d5e5.png)
+
+Then, go back to the home directory and source the file. We can see that simply entering "cs15" achieves the same result as "ssh cs15lsp22ati@ieng6.ucsd.edu" :
+
+
+![Screen Shot 2022-04-19 at 2 01 44 AM](https://user-images.githubusercontent.com/65497162/163969254-8c3ec4b4-974c-41c3-93bc-ed39c0b3d4bb.png)
+
+# Closing note
+
+The world of unix operating systems revolves around the creation of software that does one job and does it well. As such, the true beauty of the OS lies upon being able to utilise all the tools available at our disposal in great harmony. In the coming weeks, this is what I hope to explore.
+
