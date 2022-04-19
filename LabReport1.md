@@ -28,9 +28,29 @@ The specific one shown above has a custom colour scheme and a vim mode extension
 
 # Remotely Connecting
 
+Open up a terminal session by clicking Terminal -> New Terminal:
 
+<img width="1792" alt="Screen Shot 2022-04-19 at 12 41 53 AM" src="https://user-images.githubusercontent.com/65497162/163951510-823e7b2a-cb39-4ca1-ba24-4ff2409a1993.png">
+
+To ssh into another computer, all we need is to invoke the client via the ssh command, followed by an argument in the form of *username@hostname*, as demonstrated below:
+
+<img width="1792" alt="Screen Shot 2022-04-19 at 12 58 00 AM" src="https://user-images.githubusercontent.com/65497162/163954374-68a4ece2-bebc-4a24-8f8a-bf2d34d7877b.png">
 
 # Trying Some Commands
+
+Some common programs include netstat, ping and ifconfig.
+
+## Trying netstat:
+
+<img width="1563" alt="Screen Shot 2022-04-19 at 1 07 20 AM" src="https://user-images.githubusercontent.com/65497162/163955957-a51454aa-0614-4115-b8b3-99c4b2d45bf9.png">
+
+## Trying ping:
+
+<img width="1567" alt="Screen Shot 2022-04-19 at 1 06 42 AM" src="https://user-images.githubusercontent.com/65497162/163955858-00eef572-4524-4ffd-8bdf-b03dde45c378.png">
+
+## Trying ifconfig:
+
+<img width="1792" alt="Screen Shot 2022-04-19 at 1 05 08 AM" src="https://user-images.githubusercontent.com/65497162/163955571-777fe6fb-e1c6-43d8-a712-332306859309.png">
 
 
 # Moving Files with scp
@@ -40,5 +60,4 @@ The specific one shown above has a custom colour scheme and a vim mode extension
 
 
 # Optimizing Remote Running
-
 
