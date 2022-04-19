@@ -55,8 +55,16 @@ Some common programs include netstat, ping and ifconfig.
 
 # Moving Files with scp
 
+The secure copy command allows for secure duplicating of files from one computer to another. The command is scp followed by the file to be copied, followed by an argument in the form of *username@hostname* again:
+
+![Screen Shot 2022-04-19 at 1 22 16 AM](https://user-images.githubusercontent.com/65497162/163958687-17c572cf-a98a-4b0c-8b8d-a240a7a161d3.png)
+
 
 # Setting an SSH Key
+
+Since inputing our password everytime we ssh can be annoying, we can use the ssh-keygen command. This generates a public and private key which are saved on the remote computer (which we ssh into) and the client computer (that is us!) respectively. Here are the relevant commands:
+
+![Screen Shot 2022-04-19 at 1 46 00 AM](https://user-images.githubusercontent.com/65497162/163963057-fa895706-6305-4335-a7e4-c09eceae6abc.png)
 
 
 # Optimizing Remote Running
