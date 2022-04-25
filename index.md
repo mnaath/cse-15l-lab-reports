@@ -38,3 +38,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 [First post](https://mnaath.github.io/cse-15l-lab-reports/LabReport1.html)
+[Second post](https://mnaath.github.io/cse-15l-lab-reports/LabReport2.html)
