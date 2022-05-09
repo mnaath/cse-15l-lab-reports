@@ -40,3 +40,5 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 [First post](https://mnaath.github.io/cse-15l-lab-reports/LabReport1.html)
 
 [Second post](https://mnaath.github.io/cse-15l-lab-reports/LabReport2.html)
+
+[Third post](https://mnaath.github.io/cse-15l-lab-reports/LabReport3.html)
