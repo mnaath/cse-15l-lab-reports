@@ -13,9 +13,11 @@ For this test, I found the results using vimdiff.
 
 
 Expected output:
+
 <img width="1204" alt="Screen Shot 2022-06-06 at 6 31 49 PM" src="https://user-images.githubusercontent.com/65497162/172276556-cbba975e-404c-4379-8138-15ca73eefabc.png">
 
 nidhidhamnani's implementation (failed):
+
 <img width="678" alt="Screen Shot 2022-06-06 at 7 09 37 PM" src="https://user-images.githubusercontent.com/65497162/172280665-188b8aae-62c4-41e8-8d32-56a969fbdc26.png">
 
 
@@ -44,10 +46,12 @@ Expected output:
 <img width="1320" alt="Screen Shot 2022-06-06 at 7 06 14 PM" src="https://user-images.githubusercontent.com/65497162/172280201-af90ddee-19b6-4889-9201-a37183540e95.png">
 
 nidhidhamnani's implementation (failed):
+
 <img width="558" alt="Screen Shot 2022-06-06 at 7 10 03 PM" src="https://user-images.githubusercontent.com/65497162/172280712-63438da6-1d55-4c19-afe8-a0c90c5fa357.png">
 
 
 My implementation (failed):
+
 <img width="498" alt="Screen Shot 2022-06-06 at 7 08 23 PM" src="https://user-images.githubusercontent.com/65497162/172280546-825d114f-197a-4dc0-b36e-fa13f8f956d4.png">
 Fix:
 
