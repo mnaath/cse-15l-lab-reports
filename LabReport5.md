@@ -9,46 +9,59 @@ This week we covered the following concepts:
 
 For this test, I found the results using vimdiff.
 
-Link for test 1.
-
-![Screen Shot 2022-05-30 at 3 17 46 PM](https://user-images.githubusercontent.com/65497162/171064018-2e8b09e5-7637-4d71-8004-37293c03ea42.png)
+[Link](https://raw.githubusercontent.com/nidhidhamnani/markdown-parser/main/test-files/480.md) for test 1.
 
 
+Expected output:
+<img width="1204" alt="Screen Shot 2022-06-06 at 6 31 49 PM" src="https://user-images.githubusercontent.com/65497162/172276556-cbba975e-404c-4379-8138-15ca73eefabc.png">
 
-# Tests on my repo
-
-<img width="731" alt="Screen Shot 2022-05-30 at 4 00 02 PM" src="https://user-images.githubusercontent.com/65497162/171066333-89a2a9e7-3dbe-4cc7-9a51-b69b9f5bac1c.png">
-
-# Results
-
-For snippet 1:
-![Screen Shot 2022-05-30 at 4 01 31 PM](https://user-images.githubusercontent.com/65497162/171066409-169edd86-b284-4638-aa8d-93d45385e968.png)
-For snippet 2:
-![Screen Shot 2022-05-30 at 4 01 54 PM](https://user-images.githubusercontent.com/65497162/171066432-c8ad2676-6ce6-4c65-8bf8-9ecb1a383881.png)
-For snippet 3:
-![Screen Shot 2022-05-30 at 4 02 17 PM](https://user-images.githubusercontent.com/65497162/171066448-f928e1e5-f7f9-453d-8f02-3210293377a3.png)
+nidhidhamnani's implementation (failed):
+<img width="678" alt="Screen Shot 2022-06-06 at 7 09 37 PM" src="https://user-images.githubusercontent.com/65497162/172280665-188b8aae-62c4-41e8-8d32-56a969fbdc26.png">
 
 
-# Tests on reviewed repo
+My implementation (failed):
 
-<img width="622" alt="Screen Shot 2022-05-30 at 4 07 50 PM" src="https://user-images.githubusercontent.com/65497162/171066750-080d25e3-3ae7-4012-bb85-ca8d7d47357a.png">
+<img width="515" alt="Screen Shot 2022-06-06 at 6 58 55 PM" src="https://user-images.githubusercontent.com/65497162/172279858-1fe5df34-2387-4704-a751-8e465e2bc5c7.png">
 
-# Results
+Fix:
 
-<img width="798" alt="Screen Shot 2022-05-30 at 4 11 34 PM" src="https://user-images.githubusercontent.com/65497162/171066941-bf3f141a-cea4-4c63-9ef8-d5ed9ef9dc55.png">
+I will be reviewing and suggesting changes to my team's/my implementation.
 
-# Write-up
+This portion of the code shows that tags in HTML are not considered. The implementation should consider tags within <>, as they may contain links.
 
-## Snippet 1
+<img width="662" alt="Screen Shot 2022-06-06 at 7 21 51 PM" src="https://user-images.githubusercontent.com/65497162/172282076-fdc60cf5-b8b3-40f7-beb1-59d9bf3b98fc.png">
 
-The implementation needs to check if the links are within the code fences or not. A reserve search needs to be performed in this case, which is something my group's implementation does not do.
 
-## Snippet 2 
 
-A solution would be to disregard the brackets in the presence of a preceding backslash. For double paranthesis, ensure only the outer ones are considered.
+# Test 2
 
-## Snippet 3
+For this test, I found the results using vimdiff.
 
-It would be a more involved change as line breaks within links and titles need to be considered. 
+[Link](https://raw.githubusercontent.com/nidhidhamnani/markdown-parser/main/test-files/539.md) for test 1.
+
+
+Expected output:
+<img width="1320" alt="Screen Shot 2022-06-06 at 7 06 14 PM" src="https://user-images.githubusercontent.com/65497162/172280201-af90ddee-19b6-4889-9201-a37183540e95.png">
+
+nidhidhamnani's implementation (failed):
+<img width="558" alt="Screen Shot 2022-06-06 at 7 10 03 PM" src="https://user-images.githubusercontent.com/65497162/172280712-63438da6-1d55-4c19-afe8-a0c90c5fa357.png">
+
+
+My implementation (failed):
+<img width="498" alt="Screen Shot 2022-06-06 at 7 08 23 PM" src="https://user-images.githubusercontent.com/65497162/172280546-825d114f-197a-4dc0-b36e-fa13f8f956d4.png">
+Fix:
+
+I will be reviewing and suggesting changes to my team's/my implementation.
+
+This portion of the code should be changed. The issue here is that links stored in the document are not considered. Links should be searched at the document if a paranthees isn't found after a bracket.
+
+<img width="627" alt="Screen Shot 2022-06-06 at 7 24 19 PM" src="https://user-images.githubusercontent.com/65497162/172282322-d0e5d53d-bdd6-4fc1-ba78-e09abe37878e.png">
+
+
+
+
+
+
+
 
 
